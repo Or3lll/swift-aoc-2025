@@ -52,8 +52,6 @@ struct Day01: AdventDay {
       if position % 100 == 0 {
         count += 1
       }
-
-      print("Direction: \(instruction.direction), Distance: \(instruction.distance), Position: \(position), Count: \(count)")
     }
 
     return "\(count)"
